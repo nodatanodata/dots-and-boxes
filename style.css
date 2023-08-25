@@ -1,0 +1,59 @@
+html{
+    background-color: black;
+    color: white;
+}
+#board{
+    display: grid;
+    width: 455px;
+    height: 455px;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    background-color: red;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
+.vertical-square{
+    width: 5px;
+    height: 50px;
+}
+.horizantil-square{
+    width: 50px;
+    height: 5px;
+    display: grid;
+    grid-template-columns: 5px 45px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 5px 45px;
+}
+.dot{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+.line{
+    width: 45px;
+    height: 5px;
+    background-color: green;
+}
+.vertical-line{
+    width: 5px;
+    height: 45px;
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.light-red{
+    background-color:rgb(255, 142, 122);
+}
+.light-blue{
+    background-color: cyan;
+}
